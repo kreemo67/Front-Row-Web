@@ -233,21 +233,21 @@ header ul.is-sticky li a.active {
 }
 /* end: how it works styles */
 
-/* start: properties styles */
-#properties {
+/* start: tutors styles */
+#tutors {
     margin: 4rem 0 8rem;
     position: relative;
 }
 
-#properties h2 {
+#tutors h2 {
     margin-bottom: 3rem;
 }
 
-#properties .container {
+#tutors .container {
     position: relative;
 }
 
-#properties .container:before {
+#tutors .container:before {
     content: "/";
     position: absolute;
     right: 80px;
@@ -255,7 +255,7 @@ header ul.is-sticky li a.active {
     color: #999;
 }
 
-#properties-slider a.slick-arrow {
+#tutors-slider a.slick-arrow {
     color: #000;
     position: absolute;
     top: -78px;
@@ -265,56 +265,56 @@ header ul.is-sticky li a.active {
     text-decoration: none;
 }
 
-#properties-slider a.slick-prev {
+#tutors-slider a.slick-prev {
     right: 80px;
 }
 
-#properties-slider .slick-slide {
+#tutors-slider .slick-slide {
     padding: 0 15px;
 }
 
-#properties-slider img {
+#tutors-slider img {
     width: 100%;
     display: block;
 }
 
-#properties-slider .property-details {
+#tutors-slider .property-details {
     padding: 1rem;
 }
 
-#properties-slider .price {
+#tutors-slider .price {
     font-size: 1.2rem;
     color: #343a40;
     font-weight: 800;
     margin: 0 0 0.5rem 0;
 }
 
-#properties-slider .property-details span {
+#tutors-slider .property-details span {
     font-size: 0.8rem;
     padding-right: 15px;
 }
 
-#properties-slider .property-details span.baths {
+#tutors-slider .property-details span.baths {
     padding-left: 10px;
 }
 
-#properties-slider .property-details span.sqft {
+#tutors-slider .property-details span.sqft {
     padding-right: 0;
     padding-left: 10px;
 }
 
-#properties-slider .property-details span.beds,
-#properties-slider .property-details span.baths {
+#tutors-slider .property-details span.beds,
+#tutors-slider .property-details span.baths {
     border-right: 1px solid #888;
 }
 
-#properties-slider .property-details address {
+#tutors-slider .property-details address {
     font-size: 0.8rem;
     font-style: normal;
     margin-top: 0.5rem;
 }
 
-/* end: properties styles */
+/* end: tutors styles */
 
 /* start: agents styles */
 #agents {
@@ -789,16 +789,16 @@ footer small a:hover {
         font-size: 1.2rem;
     }
 
-    #properties .container:before {
+    #tutors .container:before {
         top: 2px;
         font-size: 0.85rem;
     }
 
-    #properties-slider a.slick-arrow {
+    #tutors-slider a.slick-arrow {
         font-size: 0.85rem;
     }
 
-    #properties button.rounded {
+    #tutors button.rounded {
         width: 300px;
     }
 
@@ -878,7 +878,7 @@ footer small a:hover {
         margin-top: 2rem;
     }
 
-    #properties button.rounded {
+    #tutors button.rounded {
         width: 250px;
     }
 
@@ -926,7 +926,7 @@ footer small a:hover {
      width: 100%;
   }
   
-  #properties button.rounded {
+  #tutors button.rounded {
      max-width: 250px;
      width: 100%;
   }
