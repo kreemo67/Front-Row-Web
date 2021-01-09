@@ -245,6 +245,9 @@ header ul.is-sticky li a.active {
 
 #properties .container {
     position: relative;
+    height: 300px;
+    width: 400px;
+    overflow: hidden;
 }
 
 #properties .container:before {
@@ -274,8 +277,8 @@ header ul.is-sticky li a.active {
 }
 
 #properties-slider img {
-    width: 100%;
-    display: block;
+    height: auto;
+    width: 400px;
 }
 
 #properties-slider .property-details {
