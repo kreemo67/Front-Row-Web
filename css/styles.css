@@ -278,7 +278,7 @@ header ul.is-sticky li a.active {
     display: block;
 }
 
-#tutors-slider .property-details {
+#tutors-slider .Tutor-details {
     padding: 1rem;
 }
 
@@ -289,26 +289,26 @@ header ul.is-sticky li a.active {
     margin: 0 0 0.5rem 0;
 }
 
-#tutors-slider .property-details span {
+#tutors-slider .Tutor-details span {
     font-size: 0.8rem;
     padding-right: 15px;
 }
 
-#tutors-slider .property-details span.baths {
+#tutors-slider .Tutor-details span.baths {
     padding-left: 10px;
 }
 
-#tutors-slider .property-details span.sqft {
+#tutors-slider .Tutor-details span.sqft {
     padding-right: 0;
     padding-left: 10px;
 }
 
-#tutors-slider .property-details span.beds,
-#tutors-slider .property-details span.baths {
+#tutors-slider .Tutor-details span.beds,
+#tutors-slider .Tutor-details span.baths {
     border-right: 1px solid #888;
 }
 
-#tutors-slider .property-details address {
+#tutors-slider .Tutor-details address {
     font-size: 0.8rem;
     font-style: normal;
     margin-top: 0.5rem;
