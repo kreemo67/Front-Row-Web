@@ -11,14 +11,17 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/95dc93da07.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="//cdn.jsdelivr.net/velocity/1.1.0/velocity.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js">
+    
+    </script>
 </head>
 
 <body>
     <div id="header-hero-container">
         <header>
             <div class="flex container">
-                <a id="logo" href="#">Front Row</a>
+                <a id="logo" href="/Front-Row-Web/">Front Row</a>
                 <nav>
                     <button id="nav-toggle" class="hamburger-menu">
                         <span class="strip"></span>
@@ -28,7 +31,7 @@
 
                     <ul id="nav-menu">
                         <li><a href="/Front-Row-Web/" class="active">Home</a></li>
-                        <li><a href="/Front-Row-Web/#tutors">Tutors</a></li>
+                        <li id="tutors-button"><a href="/Front-Row-Web/#tutors">Tutors</a></li>
                         <li><a href="/Front-Row-Web/mission.html">Mission</a></li>
                         <li><a href="#">Schedule</a></li>
                         <li id="close-flyout"><span class="fas fa-times"></span></li>
@@ -152,10 +155,10 @@
 
                 <div>
                     <blockquote>
-                        <p>"Kareem helped me find ways to make my classes more accessible. Kareem ."</p>
+                        <p>"Kareem helped me find ways to make my classes more accessible. Kareem helped me in Chemistry in a group session, and physics 1-on-1. I'm looking forward to his help next semester. :)"</p>
                     </blockquote>
                     <div class="testimonials-caption">
-                        <img src="https://onclickwebdesign.com/wp-content/uploads/person_8.jpg" alt="Client 7" />
+                        <img src="" alt="Client 7" />
                         <p>Thomas Reed</p>
                     </div>
                 </div>
@@ -212,6 +215,9 @@
             let logo = $('#logo');
             let navMenu = $('#nav-menu');
             let navToggle = $('#nav-toggle');
+            let tutorsButton = $('tutors-button')
+
+           $('#tutorsButton').velocity("scroll", { duration : "1200ms"});
 
            $('#tutors-slider').slick({
                 slidesToShow: 4,
