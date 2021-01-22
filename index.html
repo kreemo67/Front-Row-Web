@@ -213,8 +213,6 @@
             let logo = $('#logo');
             let navMenu = $('#nav-menu');
             let navToggle = $('#nav-toggle');
-            
-            $('tutors-button').velocity("scroll", { duration : 1200});
 
            $('#tutors-slider').slick({
                 slidesToShow: 4,
@@ -292,8 +290,19 @@
                headerElem.css(scrollTop >= 200 ? {'padding': '0.5rem', 'box-shadow': '0 -4px 10px 1px #999'} : {'padding': '1rem 0', 'box-shadow': 'none' });
            });
 
-           $(document).trigger('scroll');
+           $(document).trigger('scroll'); //"document ready" function
         });
+
+        $('tutors-button').on("click", function(){
+            $("body").velocity("scroll",{
+                duration: 2000,
+                easing:"easeInBlock"
+            });
+
+        });
+
+
+
     </script>
 </body>
 </html>
