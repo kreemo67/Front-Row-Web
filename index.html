@@ -292,13 +292,14 @@
 
            $(document).trigger('scroll'); 
         });
+
+        var $tutors = $('tutors-button');
         
-        $('tutors-button').on("click", function(){
-            $("body").velocity("scroll",{
+        $tutors.on("click", function(){
+            $("body").velocity("scroll", {
                 duration: 2000,
                 easing:"easeInBlock"
             });
-
         });
 
 
