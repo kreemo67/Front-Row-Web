@@ -274,8 +274,9 @@ header ul.is-sticky li a.active {
 }
 
 #tutors-slider img {
-    width: 100%;
-    display: block;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
 }
 
 #tutors-slider .Tutor-details {
