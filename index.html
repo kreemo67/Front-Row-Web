@@ -207,7 +207,7 @@
     </footer>
 
     <script>
-
+        //"document ready" function 
         $(function () {
             let headerElem = $('header');
             let logo = $('#logo');
@@ -290,9 +290,9 @@
                headerElem.css(scrollTop >= 200 ? {'padding': '0.5rem', 'box-shadow': '0 -4px 10px 1px #999'} : {'padding': '1rem 0', 'box-shadow': 'none' });
            });
 
-           $(document).trigger('scroll'); //"document ready" function
+           $(document).trigger('scroll'); 
         });
-
+        
         $('tutors-button').on("click", function(){
             $("body").velocity("scroll",{
                 duration: 2000,
