@@ -209,14 +209,13 @@
     </footer>
 
     <script>
+        $('tutors-button').velocity("scroll", { duration : 1200});
+        
         $(function () {
             let headerElem = $('header');
             let logo = $('#logo');
             let navMenu = $('#nav-menu');
             let navToggle = $('#nav-toggle');
-            let tutorsButton = $('tutors-button')
-
-           $(tutorsButton).velocity("scroll", { duration : 1200});
 
            $('#tutors-slider').slick({
                 slidesToShow: 4,
