@@ -277,7 +277,7 @@ header ul.is-sticky li a.active {
     display: inline-block;
     width: 250px;
     height: 450px;
-    overflow: hidden;
+    object-fit: cover;
 }
 
 #tutors-slider .Tutor-details {
