@@ -272,21 +272,11 @@
                }
 
                headerElem.css(scrollTop >= 200 ? {'padding': '0.5rem', 'box-shadow': '0 -4px 10px 1px #999'} : {'padding': '1rem 0', 'box-shadow': 'none' });
-
-
-               $(#"testimonials-slider").velocity("fadeIn", {duration:1500});
            });
 
-        var $tutors = $('tutors-button');
+           $("#testimonials-slider").velocity("fadeIn", {duration:1500});
 
-        $tutors.on("click", function(){
-            $("body").velocity("scroll", {
-                duration: 2000,
-                easing:"easeInBlock"
-            });
-        });
-
-        $(#testimonials-slider).velocity("fadeIn", {duration:1500});
+        $("#testimonials-slider").velocity("fadeIn", {duration:1500});
 
     </script>
 </body>
