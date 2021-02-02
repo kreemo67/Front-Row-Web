@@ -42,7 +42,7 @@
             <div class="fade"></div>
             <div class="hero-text">
                 <h1>Our Mission</h1>
-                <p>Tutoring.</p>
+                <button type="button" id="text-button">Tutoring.</button>
             </div>
         </section>
     </div>
@@ -76,7 +76,19 @@
     </footer>
 
     <script>
-      $("#hero-text").velocity("fadeIn",{duration:1500});
+      //velocity function test
+        function withVelocity(){
+            $("#hero-text").velocity({
+            left: "500px",
+        }, {
+            duration: 3000, 
+            easing: "linear"
+            });  
+        }
+            $('#text-button').on('click',
+                function(){
+                    withVelocity();
+                });
     </script>
 </body>
 </html>
