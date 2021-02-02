@@ -198,7 +198,11 @@
             let navMenu = $('#nav-menu');
             let navToggle = $('#nav-toggle');
 
-           $("#testimonials-slider").velocity("fadeIn",{duration:1500});
+           $("#hero-text").velocity({
+            left: "500px",
+            }, {
+            duration: 3000, 
+            easing: "linear"});  
 
            $('#tutors-slider').slick({
                 slidesToShow: 4,
