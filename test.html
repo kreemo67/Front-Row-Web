@@ -42,7 +42,7 @@
             <div class="fade"></div>
             <div class="hero-text">
                 <h1>Our Mission</h1>
-                <button type="button" id="text-button">Tutoring.</button>
+                <a href="#" class="play" id="play-velocity">Tutoring.</a>
             </div>
         </section>
     </div>
@@ -83,9 +83,9 @@
         }, {
             duration: 3000, 
             easing: "linear"
-            });  
+            } );  
         }
-            $('#text-button').on('click',
+            $('#play-velocity').on('click',
                 function(){
                     withVelocity();
                 });

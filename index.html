@@ -274,21 +274,6 @@
                headerElem.css(scrollTop >= 200 ? {'padding': '0.5rem', 'box-shadow': '0 -4px 10px 1px #999'} : {'padding': '1rem 0', 'box-shadow': 'none' });
            });           
        });
-        
-
-        //velocity function test
-        function withVelocity(){
-            $("#hero-text").velocity({
-            left: "500px",
-        }, {
-            duration: 3000, 
-            easing: "linear"
-            });  
-        }
-            $('#play-velocity').on('click',
-                function(){
-                    withVelocity();
-                });
     </script>
 </body>
 </html>
