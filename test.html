@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Front Row</title>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link href="css/styles.css" type="text/css" rel="Stylesheet" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/95dc93da07.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/velocity/2.0.6/velocity.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+
+<body>
+    <div id="header-hero-container">
+        <header>
+            <div class="flex container">
+                <a id="logo" href="/Front-Row-Web/">Front Row</a>
+                <nav>
+                    <button id="nav-toggle" class="hamburger-menu">
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                    </button>
+
+                    <ul id="nav-menu">
+                        <li><a href="/Front-Row-Web/" class="active">Home</a></li>
+                        <li id="tutors-button"><a href="/Front-Row-Web/#tutors">Tutors</a></li>
+                        <li><a href="/Front-Row-Web/mission.html">Mission</a></li>
+                        <li><a href="/Front-Row-Web/#tutors">Schedule</a></li>
+                        <li id="close-flyout"><span class="fas fa-times"></span></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <section id="hero">
+            <div class="fade"></div>
+            <div class="hero-text">
+                <h1>Our Mission</h1>
+                <p>Tutoring.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="flex container">
+            <div class="footer-about">
+                <h5>About Front Row.</h5>
+                <p>
+                Front Row Tutors is a group of college students and graduates looking to help lift up students to 
+                reach their goals. Four friends with impressive personal academic records and extensive 
+                experience tutoring came together to form Front Row.
+                </p>
+            </div>
+
+            <div class="footer-subscribe">
+
+                <h5 class="follow-us">Follow Us</h5>
+                <ul>
+                    <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                    <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                    <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                    <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <small>
+            Copyright &copy; 2020 All rights reserved | This website was made with the help of <span class="fa fa-heart"></span> by <a href="https://colorlib.com">Colorlib</a>
+        </small>
+    </footer>
+
+    <script>
+      $("#testimonials-slider").velocity("fadeIn",{duration:1500});
+
+    </script>
+</body>
+</html>
